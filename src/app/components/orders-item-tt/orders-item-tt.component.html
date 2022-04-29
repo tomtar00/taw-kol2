@@ -1,0 +1,6 @@
+<div class="container" style="margin: 10px; display: inline-block">
+    <img [src]="image" class="figure-img img-fluid rounded" style="height: 7cm;">
+    <h3>{{ title }}</h3>
+    <p>{{ text }}</p>
+    <a class="btn btn-primary" [routerLink]="['/posts/' + id]">Więcej</a>
+</div>
